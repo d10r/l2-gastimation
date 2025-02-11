@@ -1,0 +1,27 @@
+{
+  "name": "l2-gastimation",
+  "version": "1.0.0",
+  "description": "How to do gas estimation on L2",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "tsx src/app.ts"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "tsx": "^4.19.2",
+    "typescript": "^5.3.3",
+    "viem": "^2.22.9"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
